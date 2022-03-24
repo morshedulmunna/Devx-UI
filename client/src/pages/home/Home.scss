@@ -3,11 +3,30 @@
     h2 {
       font-weight: 700;
       margin: 2rem 0;
+
+      span {
+        font-size: 14px;
+        margin-left: 10px;
+        font-weight: 500;
+        color: gray;
+      }
     }
   }
   .Each-Design {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
+  }
+
+  .soft-logo {
+    display: flex;
+  }
+
+  .products {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
   }
 }
