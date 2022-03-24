@@ -1,3 +1,5 @@
+@import "../../Sass/breackpoint.scss";
+
 .Navbar {
   background-color: #fff;
   width: 100%;
@@ -48,15 +50,21 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      span {
+        margin-left: 1.5rem;
+        font-size: 0.9rem;
+      }
 
       .down-Chall {
-        span {
-          margin-left: 1.5rem;
+        .Downloads-Btn {
+          background-color: var(--primary-color);
+          padding: 0.3rem 0.5rem;
+          color: #fff;
+          border-radius: 2px;
+          cursor: pointer;
         }
-      }
-      .login-Upload {
-        span {
-          margin-left: 1.5rem;
+        @include media("<=phone") {
+          display: none;
         }
       }
     }
@@ -66,6 +74,10 @@
     padding-bottom: 1rem;
     span {
       margin-right: 4rem;
+    }
+
+    @include media("<=phone") {
+      display: none;
     }
   }
 }

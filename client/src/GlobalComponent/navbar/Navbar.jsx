@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
         <div className="right_area">
           <div className="down-Chall">
-            <span>
+            <span className="Downloads-Btn">
               <FaChessQueen /> Get Unlimited Downloads
             </span>
             <span>
