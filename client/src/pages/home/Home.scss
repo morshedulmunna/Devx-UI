@@ -1,0 +1,13 @@
+.Home {
+  .Home-Card {
+    h2 {
+      font-weight: 700;
+      margin: 2rem 0;
+    }
+  }
+  .Each-Design {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 20px;
+  }
+}

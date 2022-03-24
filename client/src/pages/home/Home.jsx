@@ -1,12 +1,23 @@
-import React from "react";
+import "./Home.scss";
 import HomeHeader from "./homeComponent/HomeHeader";
 import TrendingDesign from "./trendingDesign/TrendingDesign";
 
 const Home = () => {
   return (
-    <div>
+    <div className="Home">
       <HomeHeader />
-      <TrendingDesign />
+      <div className="container Home-Card ">
+        <h2>Trading Design File</h2>
+        <div className="Each-Design">
+          <TrendingDesign />
+          <TrendingDesign />
+          <TrendingDesign />
+          <TrendingDesign />
+          <TrendingDesign />
+          <TrendingDesign />
+          <TrendingDesign />
+        </div>
+      </div>
     </div>
   );
 };
