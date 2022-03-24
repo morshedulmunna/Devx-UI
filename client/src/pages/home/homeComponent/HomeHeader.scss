@@ -1,0 +1,38 @@
+.home-header {
+  background: url(../../../images/header-bg.png);
+  background-color: var(--primary-color);
+  height: 350px;
+  background-size: cover;
+  //   felx
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .header-text {
+    color: #fff;
+    text-align: center;
+
+    h1 {
+      font-weight: 900;
+      font-size: 3.5rem;
+      margin-bottom: 2rem;
+    }
+    p {
+      font-size: 1.3rem;
+      font-weight: 600;
+      width: 875px;
+      margin-bottom: 3rem;
+    }
+
+    span {
+      background-color: #fff;
+      color: var(--primary-color);
+      font-weight: 600;
+      padding: 0.7rem 2rem;
+      font-size: 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
