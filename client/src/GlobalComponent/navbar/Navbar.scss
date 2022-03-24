@@ -1,23 +1,46 @@
 .Navbar {
-  background-color: aqua;
+  background-color: #fff;
   width: 100%;
 
   .nav {
     padding: 10px 0px;
-    width: 90%;
-    margin: auto;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 1rem;
 
     img {
-      width: 100px;
+      width: 120px;
     }
 
     .search_area {
-      input {
-        width: 500px;
+      display: flex;
+      align-items: center;
+
+      .input {
+        position: relative;
+
+        input {
+          width: 250px;
+          padding: 0.3rem;
+          border: 1px solid lightgray;
+          padding-left: 25px;
+          margin-left: 2rem;
+          margin-right: 2rem;
+
+          border-radius: 10px;
+
+          &:focus {
+            outline: none;
+          }
+        }
+        #search-icons {
+          position: absolute;
+          left: 35px;
+          top: 4px;
+          font-size: 20px;
+        }
       }
     }
 
@@ -28,20 +51,18 @@
 
       .down-Chall {
         span {
-          margin-left: 1rem;
+          margin-left: 1.5rem;
         }
       }
       .login-Upload {
         span {
-          margin-left: 1rem;
+          margin-left: 1.5rem;
         }
       }
     }
   }
 
   .nav-btn {
-    width: 90%;
-    margin: auto;
     padding-bottom: 1rem;
     span {
       margin-right: 4rem;
