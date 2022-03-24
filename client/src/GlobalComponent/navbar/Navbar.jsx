@@ -1,6 +1,6 @@
 import "./Navbar.scss";
 import { AiOutlineSearch } from "react-icons/ai";
-import { FaChessQueen, FaLongArrowAltRight } from "react-icons/fa";
+import { FaChessQueen, FaLongArrowAltRight, FaHotjar } from "react-icons/fa";
 import { GiChaliceDrops } from "react-icons/gi";
 
 const Navbar = () => {
@@ -38,7 +38,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className=" container nav-btn">
-        <span>Trending</span>
+        <span>
+          <FaHotjar />
+          Trending
+        </span>
         <div class="dropdown">
           <span>Templates</span>
           <div class="dropdown-content">

@@ -3,10 +3,11 @@
 .Navbar {
   background-color: #fff;
   width: 100%;
+  position: sticky;
+  top: 0;
 
   .nav {
     padding: 10px 0px;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,6 +23,13 @@
         display: flex;
         align-items: center;
 
+        span {
+          font-size: 0.8rem;
+          font-weight: 700;
+          color: var(--primary-color);
+          cursor: pointer;
+        }
+
         .input {
           position: relative;
 
@@ -30,8 +38,7 @@
             padding: 0.3rem;
             border: 1px solid lightgray;
             padding-left: 25px;
-            margin-left: 2rem;
-            margin-right: 2rem;
+            margin: 0px 2rem;
 
             border-radius: 10px;
 
@@ -60,6 +67,7 @@
       }
 
       .down-Chall {
+        cursor: pointer;
         .Downloads-Btn {
           background-color: var(--primary-color);
           padding: 0.5rem 0.8rem;
@@ -71,6 +79,11 @@
           color: var(--golder-color);
         }
       }
+      .login-Upload {
+        span {
+          cursor: pointer;
+        }
+      }
     }
   }
 
@@ -79,8 +92,12 @@
     span {
       margin-right: 4rem;
       cursor: pointer;
+      &:hover {
+        border-bottom: 2px solid var(--primary-color);
+      }
     }
 
+    // Drop Down CSS ==========>
     .dropdown {
       display: inline;
       position: relative;
@@ -115,5 +132,6 @@
     .dropdown:hover .dropdown-content {
       display: block;
     }
+    // Drop Down CSS ==========>
   }
 }
