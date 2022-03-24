@@ -1,5 +1,11 @@
+import Navbar from "./GlobalComponent/navbar/Navbar";
+
 function App() {
-  return <>Home</>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 
 export default App;

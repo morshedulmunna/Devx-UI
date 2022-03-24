@@ -1,0 +1,50 @@
+.Navbar {
+  background-color: aqua;
+  width: 100%;
+
+  .nav {
+    padding: 10px 0px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    img {
+      width: 100px;
+    }
+
+    .search_area {
+      input {
+        width: 500px;
+      }
+    }
+
+    .right_area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .down-Chall {
+        span {
+          margin-left: 1rem;
+        }
+      }
+      .login-Upload {
+        span {
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+
+  .nav-btn {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 1rem;
+    span {
+      margin-right: 4rem;
+    }
+  }
+}
