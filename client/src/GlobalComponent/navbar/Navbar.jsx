@@ -42,9 +42,9 @@ const Navbar = () => {
           <FaHotjar />
           Trending
         </span>
-        <div class="dropdown">
+        <div className="dropdown">
           <span>Templates</span>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <div className="dropdown-menu">
               <div className="dropdown-left">
                 <span>Web Templates</span>
@@ -70,9 +70,9 @@ const Navbar = () => {
         </div>
         <span>Illustrations</span>
         {/* Drop Down ====> */}
-        <div class="dropdown">
+        <div className="dropdown">
           <span>Ui Kits</span>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <div className="dropdown-menu">
               <div className="dropdown-left">
                 <span>iOS UI kits</span>
@@ -93,9 +93,9 @@ const Navbar = () => {
 
         <span>Icons</span>
         {/* Drop Down ====> */}
-        <div class="dropdown">
+        <div className="dropdown">
           <span>Mockups</span>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <div className="dropdown-menu">
               <div className="dropdown-left">
                 <span>iOS Mockups</span>
@@ -115,9 +115,9 @@ const Navbar = () => {
         {/* Drop Down ====> */}
         <span>Themes</span>
         {/* Drop Down ====> */}
-        <div class="dropdown">
+        <div className="dropdown">
           <span>Fonts</span>
-          <div class="dropdown-content">
+          <div className="dropdown-content">
             <div className="dropdown-menu">
               <div className="dropdown-left">
                 <span>Others Fonts</span>

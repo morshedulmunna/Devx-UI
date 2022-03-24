@@ -1,6 +1,7 @@
 .each-design {
   position: relative;
   width: fit-content;
+  z-index: -1;
   .image {
     img {
       width: 12rem;
